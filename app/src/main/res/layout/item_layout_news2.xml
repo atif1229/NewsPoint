@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="8dp"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivNews2Image"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_launcher_background"
+            android:adjustViewBounds="true"
+            android:layout_margin="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tvNews2Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ivNews2Image"
+            android:text="some title"
+            android:layout_alignTop="@id/ivNews2Image"
+
+            />
+
+        <TextView
+            android:id="@+id/tvNews2Detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNews2Title"
+            android:layout_toRightOf="@id/ivNews2Image"
+            android:text="some detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detailsome detail"
+            android:maxLines="3"
+            android:ellipsize="end"
+            />
+       <TextView
+           android:id="@+id/tvPublishDate2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="23-3-2109"
+           android:layout_toRightOf="@id/ivNews2Image"
+           android:layout_below="@id/tvNews2Detail"
+
+           />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
